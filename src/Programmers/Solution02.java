@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Scanner;
 
-public class Solution2 {
+public class Solution02 {
 //	첫번째로 푼 방법
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

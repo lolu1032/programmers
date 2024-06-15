@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Scanner;
 
-public class Solution5 {
+public class Solution05 {
 	public int[] solution(String route) {
 		int east = 0;
 		int north = 0;

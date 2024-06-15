@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Scanner;
 
-public class Solution6 {
+public class Solution06 {
     public String[] solution(int[] numbers, int[] our_score, int[] score_list) {
         int num_student = numbers.length;
         String[] answer = new String[num_student];

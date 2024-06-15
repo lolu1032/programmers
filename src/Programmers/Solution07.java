@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Scanner;
 
-public class Solution7 {
+public class Solution07 {
 	public int func1(int humidity, int val_set) {
 		if (humidity < val_set)
 			return 3;
