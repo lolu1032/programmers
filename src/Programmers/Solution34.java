@@ -1,16 +1,20 @@
 import java.util.Arrays;
 
 class Solution34 {
-    public int[] solution(int[] num_list) {
-        int[] answer = new int[num_list.length+1];
-        for(int i = 0; i < num_list.length; i++) {
-            answer[i] = num_list[i];
+    public int solution(int n, String control) {
+        int answer = 0;
+        for(int i = 0; i < control.length(); i++) {
+            if(control.charAt(i) == 'w'){
+                n++;
+            }else if(control.charAt(i) == 's'){
+                n--;
+            }else if(control.charAt(i) == 'd') {
+                n+=10;
+            }else {
+                n-=10;
+            }
         }
-        if(num_list[num_list.length-1] > num_list[num_list.length-2]) {
-            answer[answer.length-1] = num_list[num_list.length-1] - num_list[num_list.length-2];
-        }else {
-            answer[answer.length-1] = num_list[num_list.length-1]*2;
-        }
+        answer = n;
         return answer;
     }
 }
