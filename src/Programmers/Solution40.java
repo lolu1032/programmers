@@ -1,11 +1,10 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
-class Solution40 {
-    public String solution(String my_string, int n) {
-        String answer = "";
-        for(int i = 0; i < n; i++) {
-            answer+=my_string.charAt(i);
+public class Solution40 {
+    public int solution(int[] num_list) {
+        int answer = -1;
+        for(int i = 0; i < num_list.length; i++) {
+            if(num_list[i] < 0) {
+                return i;
+            }
         }
         return answer;
     }

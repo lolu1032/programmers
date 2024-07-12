@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
-class Solution39 {
+public class Solution39 {
     public ArrayList<Integer> solution(int start_num, int end_num) {
         ArrayList<Integer> answer = new ArrayList<>();
         for(int i = start_num; i >= end_num; i--) {
